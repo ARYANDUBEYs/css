@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('drstrange.webp') no-repeat top left;
+   /* background-color: aquamarine;
+    background-repeat: repeat-y;
+    background-position: top left 200px ;*/
+    background-size: 500px;
+}
+html*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: arial;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: 800px;
+    text-shadow: -2px 5px 3px #e34ceb;
+}
+img{
+    float: right;
+    margin-right: 20px;
+    border: 40px solid #83f966;
+    border-radius: 40%;
+}

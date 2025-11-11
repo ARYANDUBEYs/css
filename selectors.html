@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <style>
+        /*div p{ color : blueviolet}*/
+        /* #box  > p {
+            color : red
+        }
+        #box + p {
+            color : aquamarine
+        }  
+        #box + p {
+            color : blue
+        }
+        #box ~ p {
+            color : brown
+        } */
+        a:link{
+            text-decoration: none; font-size: 20ps;
+        }
+        a:hover{
+            color : yellow
+        }
+        a:active{
+            color : black
+        }
+        ul {
+            list-style : none;
+            display : flex;
+        }
+        ul li{
+            
+            margin: 20px;
+            border-right: 1px solid red;
+            padding: 0px 20px;
+        }
+        ul li:nth-child(5){
+            border-right: 0px;
+        }
+        ul li:first-letter{
+            color : rgb(252, 40, 76);
+            font-size: 20px;
+        }
+        p::first-line{
+            background-color: plum;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id = "box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aliquid delectus! Neque obcaecati, eveniet voluptate, distinctio nam voluptates, delectus a blanditiis cum omnis voluptatem soluta explicabo amet illo recusandae sapiente?
+        </p>
+        <div>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti repudiandae nam rerum nostrum molestias, quia, dignissimos veniam ullam qui aperiam expedita distinctio. Tempora ut ab distinctio sequi provident quo impedit.
+            </p>
+        </div>
+
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aperiam sequi velit voluptate aliquam, animi facilis, earum voluptatem eum, temporibus ipsa! Eos dolores culpa non iure aliquam corrupti rem iusto.
+    </p> -->
+    <h3>ABES ENGINEERING COLLEGE</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi possimus vitae sunt ex recusandae fugit vel nemo itaque aliquid sed eligendi, dolorem ipsa, rem, accusamus modi? Aliquam, omnis accusantium.
+    </p>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>services</li>
+        <li>gallery</li>
+        <li>contact</li>
+    </ul>
+    <!--CSS PSEUDO-CLASSES-->
+    <a href="google.com">Visit here</a>
+
+</body>
+</html>
