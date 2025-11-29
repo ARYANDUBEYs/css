@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+        .logo {
+            height: 20px;
+            background-color: #fd8181;
+            color: rgb(193, 3, 3);
+            padding: 50px;
+        }
+        section
+        {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        section nav {
+            width: 500px;
+            padding: 20px;
+        }
+        section .content {
+            flex-grow: 2;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            height: 500px;
+        }
+        header {
+            height: 150px;
+            background-color: #76e7fb;
+            color: rgb(1, 80, 85);
+            padding: 10px 30px;
+        }
+        .body {
+            flex: 1;
+            background-color: #f6a5e8;
+            padding: 20px;
+            color: #92037a;
+        }
+        footer {
+            margin-top: 20px;
+            height: 110px;
+            background-color: #acfe83;
+            color: rgb(1, 89, 22);
+            padding: 10px 30px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="logo"><h2>LOGO</h2></div>
+
+        <section>
+            <nav><h2>Side for navigation</h2></nav>
+            <div class="content">
+                <header><h2>Header</h2></header>
+                <div class="body"><h3>Body</h3></div>
+            </div>
+        </section>
+
+        <footer><h2>Footer</h2></footer>
+
+    </main>
+</body>
+</html>
